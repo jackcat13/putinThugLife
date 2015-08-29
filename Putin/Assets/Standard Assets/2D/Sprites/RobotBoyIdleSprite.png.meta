@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 8fb98a6035269e64a998f9b56828fc4f
-timeCreated: 1440870702
+timeCreated: 1440875535
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -103,8 +103,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 85
-        y: 5
-        width: 98
+        y: 3
+        width: 99
         height: 261
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -112,30 +112,30 @@ TextureImporter:
     - name: RobotBoyIdleSprite_1
       rect:
         serializedVersion: 2
-        x: 358
-        y: 7
-        width: 100
-        height: 259
+        x: 354
+        y: 1
+        width: 101
+        height: 265
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: RobotBoyIdleSprite_2
       rect:
         serializedVersion: 2
-        x: 633
-        y: 8
-        width: 99
-        height: 257
+        x: 637
+        y: 0
+        width: 103
+        height: 266
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: RobotBoyIdleSprite_3
       rect:
         serializedVersion: 2
-        x: 910
-        y: 17
-        width: 99
-        height: 249
+        x: 913
+        y: 0
+        width: 102
+        height: 266
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
