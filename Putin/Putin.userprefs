@@ -1,24 +1,9 @@
 ﻿<Properties>
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Enemy.cs">
-    <Files>
-      <File FileName="Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" Line="72" Column="5" />
-      <File FileName="Assets\Script\Enemy.cs" Line="32" Column="26" />
-      <File FileName="Assets\Script\Perso.cs" Line="7" Column="34" />
-      <File FileName="Assets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" Line="14" Column="9" />
-      <File FileName="Assets\Script\Poutine.cs" Line="5" Column="48" />
-=======
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs">
     <Files>
-      <File FileName="Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" Line="112" Column="1" />
-      <File FileName="Assets\Standard Assets\2D\Scripts\SmirnoffManagement.cs" Line="23" Column="46" />
-      <File FileName="Assets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\2D\Scripts\ArriveTardis.cs" Line="120" Column="8" />
-      <File FileName="Assets\Standard Assets\2D\Scripts\BeginScene.cs" Line="29" Column="47" />
-      <File FileName="Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" Line="48" Column="66" />
->>>>>>> 397bdbf23a7a9fc4b14d82f94c81efc647e3d34b
+      <File FileName="Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" Line="54" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
