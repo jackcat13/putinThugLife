@@ -9,7 +9,7 @@ namespace UnityStandardAssets._2D
     {
         private PlatformerCharacter2D m_Character;
         private bool m_Jump;
-
+		private bool m_Fire;
 
         private void Awake()
         {
@@ -24,6 +24,11 @@ namespace UnityStandardAssets._2D
                 // Read the jump input in Update so button presses aren't missed.
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             }
+			if (!m_Fire)
+			{
+				// Read the vodka fire input in Update so button presses aren't missed.
+				m_Fire = CrossPlatformInputManager.GetButtonDown("Fire2");
+			}
         }
 
 
@@ -34,7 +39,9 @@ namespace UnityStandardAssets._2D
             float h = CrossPlatformInputManager.GetAxis("Horizontal");
             // Pass all parameters to the character control script.
             m_Character.Move(h, crouch, m_Jump);
+			m_Character.fire (m_Fire);
             m_Jump = false;
+			m_Fire = false;
         }
     }
 }
