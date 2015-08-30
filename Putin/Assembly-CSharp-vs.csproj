@@ -49,9 +49,13 @@
      <Compile Include="Assets\Script\ArriveTardis.cs" />
      <Compile Include="Assets\Script\BeginScene.cs" />
      <Compile Include="Assets\Script\EndLvl.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Script\Enemy.cs" />
      <Compile Include="Assets\Script\Perso.cs" />
      <Compile Include="Assets\Script\Poutine.cs" />
+=======
+     <Compile Include="Assets\Script\SmirnoffManagement.cs" />
+>>>>>>> 397bdbf23a7a9fc4b14d82f94c81efc647e3d34b
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

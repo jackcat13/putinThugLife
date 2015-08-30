@@ -20,6 +20,8 @@ namespace UnityStandardAssets._2D
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 
+		private GameObject smirnoff;
+
         private void Awake()
         {
             // Setting up references.
@@ -99,6 +101,21 @@ namespace UnityStandardAssets._2D
             }
         }
 
+		public void fire(bool fire){
+
+ 			//Test if the user launches a vodka bottle
+			if (fire) {
+				smirnoff = Instantiate (Resources.Load ("Smirnoff"), new Vector2(this.transform.position.x, this.transform.position.y+1), new Quaternion (0, 0, 0, 0)) as GameObject;
+
+				//If Putin is looking on the right
+				if (m_FacingRight){
+					smirnoff.GetComponent<SmirnoffManagement>().direction = 1;
+				}else{
+					smirnoff.GetComponent<SmirnoffManagement>().direction = -1;
+				}
+			}
+
+		}
 
         private void Flip()
         {
