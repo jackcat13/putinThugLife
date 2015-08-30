@@ -4,6 +4,7 @@ using System.Collections;
 public class SmirnoffManagement : MonoBehaviour {
 
 	private int p_direction;
+	private const int DEGAT = 5;
 
 	public int direction
 	{
@@ -27,7 +28,9 @@ public class SmirnoffManagement : MonoBehaviour {
 
 		//If the bottle hits something else than the player and another Smirnoff bottle
 		if (other.tag != "Player" && other.tag != "Smirnoff") {
-
+			if(other.tag == "Enemy"){
+				other.GetComponent<UnityStandardAssets._2D.Perso>().Touche(DEGAT);
+			}
 			Destroy (this.gameObject);
 		}
 	}

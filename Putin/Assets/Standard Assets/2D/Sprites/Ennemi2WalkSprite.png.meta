@@ -1,9 +1,25 @@
 fileFormatVersion: 2
 guid: 85e899449a875e640bd753ee70262e86
-timeCreated: 1440955129
+timeCreated: 1440960367
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Ennemi2WalkSprite_0
+    21300002: Ennemi2WalkSprite_1
+    21300004: Ennemi2WalkSprite_2
+    21300006: Ennemi2WalkSprite_3
+    21300008: Ennemi2WalkSprite_4
+    21300010: Ennemi2WalkSprite_5
+    21300012: Ennemi2WalkSprite_6
+    21300014: Ennemi2WalkSprite_7
+    21300016: Ennemi2WalkSprite_8
+    21300018: Ennemi2WalkSprite_9
+    21300020: Ennemi2WalkSprite_10
+    21300022: Ennemi2WalkSprite_11
+    21300024: Ennemi2WalkSprite_12
+    21300026: Ennemi2WalkSprite_13
+    21300028: Ennemi2WalkSprite_14
+    21300030: Ennemi2WalkSprite_15
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +46,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +64,167 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Ennemi2WalkSprite_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1792
+        width: 117
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1791
+        width: 118
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_2
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1790
+        width: 119
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_3
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1787
+        width: 118
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_4
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1784
+        width: 117
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_5
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1796
+        width: 118
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_6
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 1796
+        width: 117
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1516
+        width: 117
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_8
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1519
+        width: 118
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_9
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1512
+        width: 119
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_10
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1512
+        width: 117
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_11
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1511
+        width: 117
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_12
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1513
+        width: 118
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_13
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 1519
+        width: 117
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_14
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1247
+        width: 117
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ennemi2WalkSprite_15
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1246
+        width: 117
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

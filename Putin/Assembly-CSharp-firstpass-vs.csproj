@@ -51,8 +51,12 @@
      <Compile Include="Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\Standard Assets\2D\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Standard Assets\2D\Scripts\EndLvl.cs" />
+     <Compile Include="Assets\Standard Assets\2D\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Standard Assets\2D\Scripts\Perso.cs" />
      <Compile Include="Assets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
      <Compile Include="Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
+     <Compile Include="Assets\Standard Assets\2D\Scripts\PlatformerEnemy2D.cs" />
+     <Compile Include="Assets\Standard Assets\2D\Scripts\Poutine.cs" />
      <Compile Include="Assets\Standard Assets\2D\Scripts\Restarter.cs" />
      <Compile Include="Assets\Standard Assets\2D\Scripts\SmirnoffManagement.cs" />
      <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
